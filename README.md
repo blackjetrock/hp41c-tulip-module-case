@@ -2,12 +2,16 @@
 
 Cases for the HP41C TULIP4041. These are OpenSCAD models for the TULIP cases for the HP41C. The case is a long module case (it pokes out of the end of the calculator about 3cm. It is made in two halves, these clip together using recesses and dimples along the long edges of the case. The OpenSCAD source has several switches at the top of the files that are used to generate each of the two halves of the case. There are also switches to generate the different options of case, such as the recess and bulge for the battery. Other switches can be used to debug the model, for example, the two halves can be displayed together, and a cube can be used to slice the model in order to examine internal dimensions.
 
+<img width="818" height="457" alt="image" src="https://github.com/user-attachments/assets/e85c5058-ab2b-4eee-9f52-dbfafaabbde0" />
+
 
 ## Version 1
 This version of the case has a press-fit battery PCB. 
 
 ## Version 2
 This version has a battery PCB that is soldered to the TULP PCB with stiff wires. There is more space in the top half, to allow for tolerances when sodlering the battery PCB.
+
+<img width="818" height="457" alt="image" src="https://github.com/user-attachments/assets/2da2d76c-0790-4f75-8000-bd97b65804a5" />
 
 ## Switches
 
