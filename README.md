@@ -23,12 +23,12 @@ This version has a battery PCB that is soldered to the TULP PCB with stiff wires
 1: Render lower half of case
 ```
 
-## status_tube
+### status_tube
 ```
 1:  Create hole for status LED
 ```
 
-## bat_pcb_space
+### bat_pcb_space
 ```
 1:  Create a larger case top, with space for a battery holder and PCB.
 ```
