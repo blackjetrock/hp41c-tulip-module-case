@@ -494,7 +494,10 @@ module bat_pcb_extra_rem()
   translate([ 0, mod_len/2-bat_extra_y/2-5, -th+long_top_z2])
     {
       //%cylinder(d=22, h=extra_z*2, $fn = 100, center=true);
-      cube([23, 23, extra_z*2], center=true);
+        translate([0, 4, ])
+        {
+        cube([23, 27, extra_z*2], center=true);
+        }
         
       translate([0, 0, 1])
         {
@@ -1108,7 +1111,7 @@ difference()
   // the internal structure
   if(slice_check)
     {
-      translate([0, -17.5, 0,])
+      translate([0, -30, 0,])
         cube([30, 100, 30], center=true);
     }
 }
