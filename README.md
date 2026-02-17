@@ -33,6 +33,17 @@ This version has a battery PCB that is soldered to the TULP PCB with stiff wires
 1:  Create a larger case top, with space for a battery holder and PCB.
 ```
 
+### add_logo
+```
+0:  No logo
+1:  Put a TULIP logo on the top of the case
+```
 
+### lower_external_flush
+```
+0:  Bottom of lower half of case is flat
+1:  Lower half o cae has a step that is flush with the underside of the HP41C when the module
+is inserted in the calculator. It provides more support for the module when it is plugged in and on a flat surface.
+``
 
 
