@@ -12,12 +12,17 @@ This version has a battery PCB that is soldered to the TULP PCB with stiff wires
 ## Switches
 
 ### top
+```
 0: No top half is rendered
 1: Render top half of case
+```
 
 ### base
+```
 0: No lower half is rendered
 1: Render lower half of case
+```
+
 
 
 
