@@ -7,6 +7,7 @@ Cases for the HP41C TULIP4041. These are OpenSCAD models for the TULIP cases for
 
 ## Version 1
 This version of the case has a press-fit battery PCB. 
+<img width="709" height="549" alt="image" src="https://github.com/user-attachments/assets/d6037c1e-d46e-4d00-9ae8-fbbaa653a23a" />
 
 ## Version 2
 This version has a battery PCB that is soldered to the TULP PCB with stiff wires. There is more space in the top half, to allow for tolerances when sodlering the battery PCB.
