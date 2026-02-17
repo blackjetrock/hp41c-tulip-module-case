@@ -16,12 +16,14 @@ This version has a battery PCB that is soldered to the TULP PCB with stiff wires
 0: No top half is rendered
 1: Render top half of case
 ```
+<img width="810" height="366" alt="image" src="https://github.com/user-attachments/assets/c07e3f91-cb87-462e-a0ec-a878d87abd94" />
 
 ### base
 ```
 0: No lower half is rendered
 1: Render lower half of case
 ```
+<img width="810" height="368" alt="image" src="https://github.com/user-attachments/assets/ac78f434-1aa1-4ec9-9117-c4625098c610" />
 
 ### status_tube
 ```
@@ -32,6 +34,7 @@ This version has a battery PCB that is soldered to the TULP PCB with stiff wires
 ```
 1:  Create a larger case top, with space for a battery holder and PCB.
 ```
+<img width="810" height="368" alt="image" src="https://github.com/user-attachments/assets/821c4bd2-4172-4758-834f-6bd1ae545b6e" />
 
 ### add_logo
 ```
@@ -44,6 +47,7 @@ This version has a battery PCB that is soldered to the TULP PCB with stiff wires
 0:  Bottom of lower half of case is flat
 1:  Lower half o cae has a step that is flush with the underside of the HP41C when the module
 is inserted in the calculator. It provides more support for the module when it is plugged in and on a flat surface.
-``
+```
+<img width="810" height="368" alt="image" src="https://github.com/user-attachments/assets/f9c961c1-677b-495c-8c2b-9452d834dc6f" />
 
 
