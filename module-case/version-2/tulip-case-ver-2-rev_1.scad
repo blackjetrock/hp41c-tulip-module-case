@@ -57,6 +57,21 @@
 // 2.   The PCB support posts went through the case to the top surface (top half posts) when the
 //      nobat option was selected. Put in a conditional to have two different post models for
 //      bat and nobat options.
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Version 2
+//
+// Version 2 is a change that accomodates the new battery PCB and battery PCB mounting scheme. 
+// Instead of clipping the PCB into the top case half, the battery PCB is mounted on three short
+// stiff wires soldered onto the TULIP PCB and the battery PCB. The main change is to remove the battery 
+// PCB press-fit arrangment in the top half and open up the battery space to allow for more tolerance for
+// battery PCB positioning.
+//
+// V2 Rev1
+// Diverges from Version 1 at Version 1 Rev 12
+//
+//
 
 $fn = 40;
 
@@ -88,7 +103,7 @@ prev_rev_top_diff     = 0;  // Diff this revision from previous revision
 prev_rev_bot          = 0;  // Show the previous revision of bottom half
 prev_rev_bot_diff     = 0;  // Diff this revision from previous revision
 
-lower_external_flush  = 1; // Lower case outside the module bay flush
+lower_external_flush  = 0; // Lower case outside the module bay flush
                           // with bottom of calculator
 
 show_pipe             = 0;
@@ -438,13 +453,13 @@ module bat_pcb_extra()
   // End bar to hold PCB
   translate([0, 24, -8.75+13.8+0.5])
     {
-      cube([rest_l+rest_th, rest_th, sidebar_z], center=true);
+      //%cube([rest_l+rest_th, rest_th, sidebar_z], center=true);
     }
 
   // Side bars to hold PCB
   translate([-base_w/2+rest_th/2, rest_y, -8.75+13.8+0.5])
     {
-      cube([rest_th, rest_l+rest_th, sidebar_z], center=true);
+      //%cube([rest_th, rest_l+rest_th, sidebar_z], center=true);
     }
 
   //  translate([-base_w/2+0.25, 26, -8.75+13.8-0.3])
@@ -454,7 +469,7 @@ module bat_pcb_extra()
   
   translate([ base_w/2-rest_th/2, rest_y, -8.75+13.8+0.5])
     {
-      cube([rest_th, rest_l+rest_th, sidebar_z], center=true);
+      //%cube([rest_th, rest_l+rest_th, sidebar_z], center=true);
     }
 
   //translate([ base_w/2-0.25, 26, -8.75+13.8-0.3])
@@ -478,10 +493,12 @@ module bat_pcb_extra_rem()
   // Space for battery and holder
   translate([ 0, mod_len/2-bat_extra_y/2-5, -th+long_top_z2])
     {
-      cylinder(d=22, h=extra_z*2, $fn = 100, center=true);
+      //%cylinder(d=22, h=extra_z*2, $fn = 100, center=true);
+      cube([23, 23, extra_z*2], center=true);
+        
       translate([0, 0, 1])
         {
-          cube([17.0, 24, 2], center=true);
+          //%cube([17.0, 24, 2], center=true);
         }
 
       translate([10, 12, 1])

@@ -57,6 +57,21 @@
 // 2.   The PCB support posts went through the case to the top surface (top half posts) when the
 //      nobat option was selected. Put in a conditional to have two different post models for
 //      bat and nobat options.
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Version 2
+//
+// Version 2 is a change that accomodates the new battery PCB and battery PCB mounting scheme. 
+// Instead of clipping the PCB into the top case half, the battery PCB is mounted on three short
+// stiff wires soldered onto the TULIP PCB and the battery PCB. The main change is to remove the battery 
+// PCB press-fit arrangment in the top half and open up the battery space to allow for more tolerance for
+// battery PCB positioning.
+//
+// V2 Rev1
+// Diverges from Version 1 at Version 1 Rev 12
+//
+//
 
 $fn = 40;
 
