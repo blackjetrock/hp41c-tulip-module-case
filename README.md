@@ -59,4 +59,10 @@ is inserted in the calculator. It provides more support for the module when it i
 ```
 <img width="810" height="368" alt="image" src="https://github.com/user-attachments/assets/f9c961c1-677b-495c-8c2b-9452d834dc6f" />
 
+### slice_check
+
+```
+0:  Turns on a cube that can be used o chop the model and check interior thicknesses
+```
+
 
