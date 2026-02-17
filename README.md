@@ -25,6 +25,10 @@ This version has a battery PCB that is soldered to the TULP PCB with stiff wires
 ```
 <img width="810" height="368" alt="image" src="https://github.com/user-attachments/assets/ac78f434-1aa1-4ec9-9117-c4625098c610" />
 
+Setting both top and base to 1 results in a rendring of both halves, in the clipped together positions.
+
+<img width="818" height="457" alt="image" src="https://github.com/user-attachments/assets/a5d19ca3-40d9-4f14-86a2-fe355817d3c0" />
+
 ### status_tube
 ```
 1:  Create hole for status LED
